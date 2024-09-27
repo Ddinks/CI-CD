@@ -14,3 +14,7 @@ services:
     ports:
       - "80:80"    # Port HTTP
       - "443:443"  # Port HTTPS
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf  # Montre la configuration Nginx
+      - ./certs:/etc/nginx/certs  # Montre les certificats SSL
+      - ./logs/nginx:/var/log/nginx
