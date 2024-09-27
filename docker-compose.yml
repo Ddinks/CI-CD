@@ -7,3 +7,10 @@ services:
       - "8000:8000"
     environment:
       - GROQ_API_KEY=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
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - "80:80"    # Port HTTP
+      - "443:443"  # Port HTTPS
