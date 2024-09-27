@@ -40,3 +40,13 @@ nginx:
       - ./certs:/etc/nginx/certs
       - ./logs/nginx:/var/log/nginx
 
+
+
+
+
+![image](https://github.com/user-attachments/assets/5e8d3255-d433-426d-b5f9-d68033d16fac)
+
+adding testing
+
+
+
