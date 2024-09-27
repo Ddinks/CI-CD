@@ -65,4 +65,28 @@ adding testing
 
 
 
+Tox script :
+pygaya@pygaya-virtual-machine:~/CI-CD/CI-CD$ cat tox.ini
+[tox]
+envlist = py38, py310
+
+[testenv]
+deps = 
+    pytest
+    fastapi
+    httpx               # Add pytest as a dependency
+    groq
+setenv = 
+    GROQ =
+
+commands = 
+    pytest test_app.py  # Run pytest on your test file
+
+[travis]
+python =
+    3.8
+    3.10
+
+
+
 
