@@ -23,3 +23,20 @@ Test.sh lancé avec le prompt What is a LLM
 
 
 Ajout du SSL sur la fastapi
+
+
+
+
+
+nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - "80:80"    # Port HTTP
+      - "443:443"  # Port HTTPS
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./certs:/etc/nginx/certs
+      - ./logs/nginx:/var/log/nginx
+
