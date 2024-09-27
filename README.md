@@ -7,3 +7,7 @@ Test de l'api avec le prompt": "Hi how are you ?"
 
 ![image](https://github.com/user-attachments/assets/f6eaa764-fea1-430f-b0b9-7a527d646dff)
 TEst avec l'api conteneurisé avec le prompt "Bonjour, comment ca va ?"
+
+
+![image](https://github.com/user-attachments/assets/54c14fcf-2368-4ca8-bf8e-734db6facd00)
+Test.sh lancé avec le prompt What is a LLM
