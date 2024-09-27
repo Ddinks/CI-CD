@@ -43,6 +43,15 @@ nginx:
 
 
 
+from fastapi.testclient import TestClient
+from mini_groq import app
+
+client = TestClient(app)
+
+def test_status():
+    response = client.get("/status")
+    assert response.status_code == 200
+    assert response.json() == {"message": "OK"}
 
 ![image](https://github.com/user-attachments/assets/5e8d3255-d433-426d-b5f9-d68033d16fac)
 
