@@ -87,6 +87,8 @@ python =
     3.8
     3.10
 
+![image](https://github.com/user-attachments/assets/8b3bb63a-f804-4614-a4df-30c0a5357f90)
 
+Adding to a local Registry Docker
 
 
