@@ -27,5 +27,7 @@ jobs:
           pip install fastapi pytest httpx groq  # Install your FastAPI and testing dependencies
 
       - name: Run tests
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}  # Set the environment variable
         run: |
           pytest test_app.py  # Run your FastAPI tests
