@@ -1,3 +1,8 @@
+[![FastAPI Testing](https://github.com/Ddinks/CI-CD/actions/workflows/test.yml/badge.svg)](https://github.com/Ddinks/CI-CD/actions/workflows/test.yml)
+
+[![Docker Build and Push](https://github.com/Ddinks/CI-CD/actions/workflows/docker-deploy.yml/badge.svg)](https://github.com/Ddinks/CI-CD/actions/workflows/docker-deploy.yml)
+
+
 # CI-CD
 
 ![image](https://github.com/user-attachments/assets/45ae5485-4749-4957-b27f-7605a2550d94)
@@ -56,6 +61,8 @@ def test_status():
 ![image](https://github.com/user-attachments/assets/5e8d3255-d433-426d-b5f9-d68033d16fac)
 
 adding testing
+
+
 
 
 
